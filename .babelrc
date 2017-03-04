@@ -1,0 +1,12 @@
+{
+  /* Every single transform is now a plugin,
+   * including ES2015 and JSX. And as a result, nothing happens by default –
+   * so you’ll need to install the correct plugins.
+   * Actually, ES2015 consists of about 20 plugins.
+   * don’t want to install each of these manually, which is why Babel has added presets.
+   */
+  "presets": [
+    "es2015",
+    "stage-1"
+  ]
+}
