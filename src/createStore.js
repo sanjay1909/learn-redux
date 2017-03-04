@@ -7,7 +7,7 @@ export const ActionTypes = {
 
 export default function createStore(reducer){
     let currentReducer = reducer;
-    let currentState = {};
+    let currentState;
     let currentListeners = [];
     let nextListeners = currentListeners;
     let isDispatching = false;
